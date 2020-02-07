@@ -1,0 +1,24 @@
+mod: alt
+
+~/.config/sway/config
+
+mod enter 	-> terminal
+mod Q		-> kill
+mod f 		-> fullscreen
+mod shift r	-> reload config file
+mod shift e	-> exit
+mod r 		-> resize
+mod shift space	-> (floating <-> tiled)
+mod s 		-> stacked
+mod t 		-> tiled
+
+
+
+
+launcher: rofi
+mod a 		-> launcher run
+mod W 		-> launcher window
+
+scratschpad
+mod shift - 	-> into bag
+mod       - 	-> see bag 
